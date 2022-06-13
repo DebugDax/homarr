@@ -33,6 +33,7 @@ interface ConfigModule {
 
 export const ServiceTypeList = [
   'Other',
+  'Click To Ping',
   'Emby',
   'Deluge',
   'Lidarr',
@@ -45,6 +46,7 @@ export const ServiceTypeList = [
 ];
 export type ServiceType =
   | 'Other'
+  | 'Click To Ping'
   | 'Emby'
   | 'Deluge'
   | 'Lidarr'
